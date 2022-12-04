@@ -32,7 +32,7 @@ func main() {
 			sum = 0
 		}
 	}
-	_ = f.Close()
+	err = f.Close()
 	if err != nil {
 		return
 	}
